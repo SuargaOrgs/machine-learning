@@ -21,7 +21,7 @@ Babel==2.15.0
 backcall==0.2.0
 beautifulsoup4==4.12.3
 bidict==0.23.1
-bigframes==1.6.0
+bigframes==1.8.0
 bleach==6.1.0
 blinker==1.4
 blis==0.7.11
@@ -33,7 +33,7 @@ build==1.2.1
 CacheControl==0.14.0
 cachetools==5.3.3
 catalogue==2.0.10
-certifi==2024.2.2
+certifi==2024.6.2
 cffi==1.16.0
 chardet==5.2.0
 charset-normalizer==3.3.2
@@ -44,12 +44,12 @@ cligj==0.7.2
 cloudpathlib==0.16.0
 cloudpickle==2.2.1
 cmake==3.27.9
-cmdstanpy==1.2.2
+cmdstanpy==1.2.3
 colorcet==3.1.0
 colorlover==0.3.0
 colour==0.1.5
 community==1.0.0b1
-confection==0.1.4
+confection==0.1.5
 cons==0.4.6
 contextlib2==21.6.0
 contourpy==1.2.1
@@ -78,7 +78,7 @@ docstring_parser==0.16
 docutils==0.18.1
 dopamine_rl==4.0.9
 duckdb==0.10.3
-earthengine-api==0.1.404
+earthengine-api==0.1.405
 easydict==1.13
 ecos==2.0.13
 editdistance==0.6.2
@@ -90,7 +90,7 @@ etils==1.7.0
 etuples==0.3.9
 exceptiongroup==1.2.1
 fastai==2.7.15
-fastcore==1.5.38
+fastcore==1.5.43
 fastdownload==0.0.7
 fastjsonschema==2.19.1
 fastprogress==1.0.3
@@ -100,9 +100,9 @@ fiona==1.9.6
 firebase-admin==5.3.0
 Flask==2.2.5
 flatbuffers==24.3.25
-flax==0.8.3
+flax==0.8.4
 folium==0.14.0
-fonttools==4.51.0
+fonttools==4.53.0
 frozendict==2.4.4
 frozenlist==1.4.1
 fsspec==2023.6.0
@@ -139,17 +139,17 @@ google-cloud-language==2.13.3
 google-cloud-resource-manager==1.12.3
 google-cloud-storage==2.8.0
 google-cloud-translate==3.11.3
-google-colab @ file:///colabtools/dist/google-colab-1.0.0.tar.gz#sha256=a69d84f64dc001d3e497ae0044d66d3daa949fd5f687e8e6c972df17393053fd
+google-colab @ file:///colabtools/dist/google-colab-1.0.0.tar.gz#sha256=ddeeb67dd4df5b22e3e8130ec9575b46200238973a54f5bced6382d90db8b441
 google-crc32c==1.5.0
 google-generativeai==0.5.4
 google-pasta==0.2.0
 google-resumable-media==2.7.0
-googleapis-common-protos==1.63.0
+googleapis-common-protos==1.63.1
 googledrivedownloader==0.4
 graphviz==0.20.3
 greenlet==3.0.3
 grpc-google-iam-v1==0.13.0
-grpcio==1.64.0
+grpcio==1.64.1
 grpcio-status==1.48.2
 gspread==6.0.2
 gspread-dataframe==3.3.1
@@ -157,21 +157,22 @@ gym==0.25.2
 gym-notices==0.0.8
 h5netcdf==1.3.0
 h5py==3.9.0
-holidays==0.49
+holidays==0.50
 holoviews==1.17.1
 html5lib==1.1
 httpimport==1.3.1
 httplib2==0.22.0
-huggingface-hub==0.23.1
+huggingface-hub==0.23.2
 humanize==4.7.0
 hyperopt==0.2.7
 ibis-framework==8.0.0
 idna==3.7
 imageio==2.31.6
-imageio-ffmpeg==0.4.9
+imageio-ffmpeg==0.5.1
 imagesize==1.4.1
 imbalanced-learn==0.10.1
 imgaug==0.4.0
+immutabledict==4.2.0
 importlib_metadata==7.1.0
 importlib_resources==6.4.0
 imutils==0.5.4
@@ -191,7 +192,7 @@ itsdangerous==2.2.0
 jax==0.4.26
 jaxlib @ https://storage.googleapis.com/jax-releases/cuda12/jaxlib-0.4.26+cuda12.cudnn89-cp310-cp310-manylinux2014_x86_64.whl#sha256=813cf1fe3e7ca4dbf5327d6e7b4fc8521e92d8bba073ee645ae0d5d036a25750
 jeepney==0.7.1
-jellyfish==1.0.3
+jellyfish==1.0.4
 jieba==0.42.1
 Jinja2==3.1.4
 joblib==1.4.2
@@ -203,7 +204,7 @@ jupyter-console==6.1.0
 jupyter-server==1.24.0
 jupyter_core==5.7.2
 jupyterlab_pygments==0.3.0
-jupyterlab_widgets==3.0.10
+jupyterlab_widgets==3.0.11
 kaggle==1.6.14
 kagglehub==0.2.5
 keras==2.15.0
@@ -250,7 +251,7 @@ multitasking==0.0.11
 murmurhash==1.0.10
 music21==9.1.0
 natsort==8.4.0
-nbclassic==1.0.0
+nbclassic==1.1.0
 nbclient==0.10.0
 nbconvert==6.5.4
 nbformat==5.10.4
@@ -268,8 +269,8 @@ oauth2client==4.1.3
 oauthlib==3.2.2
 opencv-contrib-python==4.8.0.76
 opencv-python==4.8.0.76
-opencv-python-headless==4.9.0.80
-openpyxl==3.1.2
+opencv-python-headless==4.10.0.82
+openpyxl==3.1.3
 opt-einsum==3.3.0
 optax==0.2.2
 orbax-checkpoint==0.4.4
@@ -306,7 +307,7 @@ proglog==0.1.10
 progressbar2==4.2.0
 prometheus_client==0.20.0
 promise==2.3
-prompt-toolkit==3.0.43
+prompt_toolkit==3.0.45
 prophet==1.1.5
 proto-plus==1.23.0
 protobuf==3.20.3
@@ -321,8 +322,8 @@ pyasn1==0.6.0
 pyasn1_modules==0.4.0
 pycocotools==2.0.7
 pycparser==2.22
-pydantic==2.7.1
-pydantic_core==2.18.2
+pydantic==2.7.3
+pydantic_core==2.18.4
 pydata-google-auth==1.8.2
 pydot==1.4.2
 pydot-ng==2.0.0
@@ -376,12 +377,13 @@ scikit-image==0.19.3
 scikit-learn==1.2.2
 scipy==1.11.4
 scooby==0.10.0
-scs==3.2.4.post1
+scs==3.2.4.post2
 seaborn==0.13.1
 SecretStorage==3.3.1
 Send2Trash==1.8.3
 sentencepiece==0.1.99
 shapely==2.0.4
+simple_parsing==0.1.5
 six==1.16.0
 sklearn-pandas==2.2.0
 smart-open==6.4.0
@@ -408,7 +410,7 @@ srsly==2.4.8
 stanio==0.5.0
 statsmodels==0.14.2
 StrEnum==0.4.15
-sympy==1.12
+sympy==1.12.1
 tables==3.8.0
 tabulate==0.9.0
 tbb==2021.12.0
@@ -417,7 +419,7 @@ tenacity==8.3.0
 tensorboard==2.15.2
 tensorboard-data-server==0.7.2
 tensorflow @ https://storage.googleapis.com/colab-tf-builds-public-09h6ksrfwbb9g9xv/tensorflow-2.15.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl#sha256=a2ec79931350b378c1ef300ca836b52a55751acb71a433582508a07f0de57c42
-tensorflow-datasets==4.9.4
+tensorflow-datasets==4.9.5
 tensorflow-estimator==2.15.0
 tensorflow-gcs-config==2.15.0
 tensorflow-hub==0.16.1
@@ -448,13 +450,13 @@ tornado==6.3.3
 tqdm==4.66.4
 traitlets==5.7.1
 traittypes==0.2.1
-transformers==4.41.1
+transformers==4.41.2
 triton==2.3.0
 tweepy==4.14.0
 typer==0.9.4
 types-pytz==2024.1.0.20240417
 types-setuptools==70.0.0.20240524
-typing_extensions==4.11.0
+typing_extensions==4.12.1
 tzdata==2024.1
 tzlocal==5.2
 uc-micro-py==1.0.3
@@ -462,7 +464,7 @@ uritemplate==4.1.1
 urllib3==2.0.7
 vega-datasets==0.9.0
 wadllib==1.3.6
-wasabi==1.1.2
+wasabi==1.1.3
 wcwidth==0.2.13
 weasel==0.3.4
 webcolors==1.13
@@ -481,4 +483,4 @@ yarl==1.9.4
 yellowbrick==1.5
 yfinance==0.2.40
 zict==3.0.0
-zipp==3.18.2
+zipp==3.19.1
